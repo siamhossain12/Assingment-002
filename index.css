@@ -32,7 +32,18 @@
 color: #8987A1;
 }
 
-
+.nev-aside{
+    display: flex;
+    width: 1140px;
+    height: 461px;
+    margin: 0 auto;
+    align-items:end;
+    justify-content: space-between;
+}
+.nav-cloumns{
+    width: 570px;
+   
+}
 
 
 
