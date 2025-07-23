@@ -1,0 +1,65 @@
+/* for font style */
+
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,for nev section ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
+.nav{
+    width: 1140px;
+    height: 75px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nevigations{
+    text-decoration: none;
+    margin-left: 40px;
+    
+}
+.all-nevigation{
+    margin-top: 25px;
+    
+}
+.nev-style1{
+ color: #252432;
+}
+.nev-style2{
+color: #8987A1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ...................................for medis querry.................... */
+ @media screen and (max-width:576px){
+    .nav{
+        width: 100%;
+        height: 68px;
+
+    }
+   .nevspecial{
+    display: none;
+    
+   }
+ .nev-logo{
+    margin-left: 10px;
+ }
+ .all-nevigation{
+    margin-right: 10px;
+ }
+ 
+    
+ }
