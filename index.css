@@ -312,7 +312,9 @@ margin-top: 10px;
    margin-bottom: 8px;
 }
 
-
+.underlineing{
+   text-decoration: underline;
+}
 
 
 
@@ -378,11 +380,14 @@ margin-top: 10px;
     
  }
   .all-card{
-    width: 80%;
+    width: 100%;
      
   grid-template-columns: repeat(2,1fr);
  gap: 10px;
- margin-left: 10px;
+
+ margin: 0px;
+grid-column: ;
+
   /* text-align: center; */
    
   /* margin: 0 auto;  */
@@ -398,6 +403,9 @@ margin-top: 10px;
  }
  .card{
    width: 171px;
+   margin: 0px;
+   margin: 0 auto;
+   
    
     text-align: center;
  }
@@ -457,15 +465,28 @@ margin:
   /*........................................  */
 .middle-body2{
    width: 100%;
+   height: auto;
    display: flex;
    flex-direction:column ;
-   margin-left: 8px;
+   
+   margin: 0 auto;
+   
 
 }
+
+ .middleb-colum1{
+   width: 90%;
+   height: auto; 
+   margin: 0 auto;
+   
+   
+   margin-bottom: 20px;
+ }
+
 .middleb-colum2{
-      width: 355.5px;
-      height: 190px;
-      margin: 0%;
+      width: 90%;
+      height: 160px;
+      
       border-radius: 10px;
   
  
@@ -483,13 +504,7 @@ font-size: 1.25rem;
 .a{
    margin-top: 40px;
 }
- .middleb-colum1{
-   width: 95%;
-   height: auto; 
-   
-   
-   margin-bottom: 30px;
- }
+
 
  .foritem-1{
    height: auto;
