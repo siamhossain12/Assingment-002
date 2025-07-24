@@ -102,6 +102,55 @@ color: #8987A1;
 
 
 
+
+ /* ...............for top middle body............. */
+
+.middle-body{
+   display: flex;
+   width: 1140px;
+   height: 597px;
+   margin: 0 auto;
+   margin-top: 210px;
+   justify-content: space-between;
+   
+}
+.middlebody-cloumns1{
+
+   width: 540px;
+   height: 597px;
+   position: relative;
+}
+.middlebody-cloumns2{
+
+   width: 560px;
+   height: 521px;
+}
+.middlebody-title{
+font-size: 3.125rem;
+font-weight: bold;
+}
+.mdody-discription{
+
+
+font-size: 1.4rem;
+
+}
+
+.badge{
+ width: 250px;
+ height: 250px;
+ position: absolute;
+ left: 68%;
+ top: -15%;
+ 
+ filter: drop-shadow(2px 2px 5px );
+}
+
+
+
+
+
+
 /* ...................................for medis querry.................... */
  @media screen and (max-width:576px){
     .nav{
@@ -171,5 +220,39 @@ color: #8987A1;
  .display-none{
    display: none;
  }
+ /* ......for middle boby section ............. */
+.middle-body{
+  flex-direction: column;
+   width: 100%;
+   height: auto;
+   margin: 0 auto;
+   margin-top: 100px;
+   
+   
+}
+.middlebody-cloumns1{
+
+   width: 80%;
+   height:auto;
+
+}
+.middlebody-cloumns2{
+ width: 100%;
+   height:auto;
+  
+   
+  
+
+
+}
+.badge{
+   display: none;
+}
+.mbody-img{
+   width: 100%;
+ margin-left: 45px;
+  
+}
+
     
  }
