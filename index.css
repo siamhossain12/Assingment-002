@@ -196,10 +196,12 @@ font-size: 1.4rem;
     width: 80%;
      
   grid-template-columns: repeat(2,1fr);
-  text-align: center;
+ gap: 10px;
+ margin-left: 10px;
+  /* text-align: center; */
    
-  margin: 0 auto; 
-  padding-left: 15px;
+  /* margin: 0 auto;  */
+  /* padding-left: 15px; */
   /* margin-left: 10px; */
   
  
@@ -221,7 +223,7 @@ font-size: 1.4rem;
    display: none;
  }
  /* ......for middle boby section ............. */
-.middle-body{
+ .middle-body{
   flex-direction: column;
    width: 100%;
    height: auto;
@@ -232,7 +234,7 @@ font-size: 1.4rem;
 }
 .middlebody-cloumns1{
 
-   width: 80%;
+   width: 100%;
    height:auto;
 
 }
@@ -250,9 +252,9 @@ font-size: 1.4rem;
 }
 .mbody-img{
    width: 100%;
- margin-left: 45px;
+margin:
   
-}
+} 
 
     
  }
