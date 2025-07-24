@@ -58,11 +58,47 @@ color: #8987A1;
     
 }
 /*................................... for card section ..................................*/
-
-
-
-
-
+ .card-section{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
+ }
+ .all-card{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  
+ }
+ .card{
+    margin-top: 20px;
+    text-align: center;
+ }
+  .card-title{
+    font-size: 3.12rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .text-center{
+    text-align: center;
+  }
+ .card-name{
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #111111;
+ }
+ .card-prize{
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #111111;
+  grid-column: none;
+ }
+ .card-button{
+    width: 270px;
+    height: 50px;
+ color: aliceblue;
+ font-size: 1rem;
+ font-weight: 600;
+ background-color:#E95A08 ;
+ }
 
 
 
@@ -100,6 +136,40 @@ color: #8987A1;
  .banner-title{
     font-size: 3rem;
     margin-top: 30px;
+ }
+  .card-section{
+    width:100%;
+    
+    margin-top: 20px;
+    
+ }
+  .all-card{
+    width: 80%;
+     
+  grid-template-columns: repeat(2,1fr);
+  text-align: center;
+   
+  margin: 0 auto; 
+  padding-left: 15px;
+  /* margin-left: 10px; */
+  
+ 
+ }
+ .card-button{
+
+   width: 171px;
+  height: 50px;
+ }
+ .card{
+   width: 171px;
+   
+    text-align: center;
+ }
+ .card-img{
+    width: 100%;
+ }
+ .display-none{
+   display: none;
  }
     
  }
