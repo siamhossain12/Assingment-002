@@ -146,6 +146,101 @@ font-size: 1.4rem;
  filter: drop-shadow(2px 2px 5px );
 }
 
+/* ..............................for middle body section............................. */
+  .middle-body1{
+   text-align: center;
+   margin-top: 130px;
+  }
+ .middleb-title{
+   font-size: 3.125rem;
+   font-weight: bold;
+
+ }
+  .middleb-discription{
+   width: 888px;
+   height: 54px; 
+   margin: 0 auto;
+ }
+ /* .................................................. */
+
+ .middle-body2{
+  width: 1140px;
+  height: 425px;
+  margin: 0 auto;
+  margin-top: 120px;
+  display: flex;
+  
+  
+  
+
+ }
+ 
+ .middleb-colum1{
+   width: 365px;
+   height: 410px; 
+   display: flex;
+   flex-direction: column;
+
+
+ }
+ .foritem-1{
+   height: 50%;
+ background-image: url(acc/deal-bloom.png);
+background-repeat:no-repeat;
+border-radius: 15px;
+text-align: center;
+color: aliceblue;
+background-color: rgba(255, 255, 255, 1);
+
+
+ }
+ .foritem-2{
+   height: 50%;
+ background-image: url(acc/deal-ana.png);
+ background-repeat:no-repeat;
+ margin-top: 30px;
+border-radius: 15px;
+text-align: center;
+color: aliceblue;
+
+ }
+ 
+   .middleb-colum2{
+    width: 755px;
+ height: 410px;background-image: url(acc/deal-zabo.png);
+ background-repeat:no-repeat;
+ margin-left: 20px;
+ border-radius: 15px;
+ text-align: center;
+color: aliceblue;
+
+
+   }
+ .a{
+ text-align: center;
+color: aliceblue;
+margin-top: 60px;
+font-weight: bold;
+ }
+ .b{
+   text-align: center;
+color: aliceblue;
+margin-top: 160px;
+font-weight: bold;
+ }
+ .font-size{
+   font-size:1.25rem ;
+ }
+  .fstitle3{
+   
+     font-size:2.5rem ;
+
+  }
+   .sndtitle3{
+
+       font-size:1.75rem ;
+   }
+
 
 
 
@@ -254,7 +349,75 @@ font-size: 1.4rem;
    width: 100%;
 margin:
   
-} 
+}
 
+/*....................... for last middle body section ......................*/
+
+
+
+
+
+
+
+
+.middleb-discription{
+   width:100%;
+   height: auto; 
+   margin: 0 auto;
+ }
+  /*........................................  */
+.middle-body2{
+   width: 100%;
+   display: flex;
+   flex-direction:column ;
+   margin-left: 8px;
+
+}
+.middleb-colum2{
+      width: 355.5px;
+      height: 190px;
+      margin: 0%;
+      border-radius: 10px;
+  
+ 
+}
+.fstitle3{
+font-size: 1.25rem;
+}
+.sndtitle3{
+ font-size: 1rem;
+
+}
+.b{
+   margin-top: 40px;
+}
+.a{
+   margin-top: 40px;
+}
+ .middleb-colum1{
+   width: 95%;
+   height: auto; 
+   
+   
+   margin-bottom: 30px;
+
+ .foritem-1{
+   height: auto;
+ color: #111111;
+ flex: none;
+border-radius: 10px;
+
+
+
+
+
+ }
+ .foritem-2{
+   height: auto;
+
+
+ }
+ /* .......................ji upore na takanoi valo......................... */
+ 
     
  }
