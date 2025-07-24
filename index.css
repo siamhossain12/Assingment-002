@@ -241,6 +241,96 @@ font-weight: bold;
        font-size:1.75rem ;
    }
 
+/* ...................................for last or not ............... */
+
+.last-main{
+   height: 533px;
+   background: linear-gradient(145deg,hsla(0, 0%, 100%,0.02)),
+               url(acc/news-letter-bg.png) no-repeat  center/cover;
+         
+display: flex;
+flex-direction:column ;
+justify-content: center;
+align-items: center;
+}
+
+ .lmain-title{
+font-weight: bold;
+font-size: 3.125rem ;
+color: aliceblue;
+
+} 
+.main-form{
+   gap: none;
+}
+.main-box{
+   width: 644px;
+   height: 42px;
+
+}
+.form-button{
+   width: 186px;
+   height: 50px;
+   background-color: #E95A08;
+   color: aliceblue;
+   font-weight: bolder;
+}
+
+/* ...................At the end fotter sec .....................*/
+
+.footer{
+   width: 1140px;
+  height: : 250px;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   
+   margin-top: 50px;
+}
+.footer-column1{
+margin-top: 10px;
+}
+.footer-column2{
+margin-left: 30px;
+
+}
+.footer-column3{
+margin-left: 30px;
+
+}
+.footer-column4{
+margin-left: 30px;
+margin-top: 10px;
+
+}
+.footer-logo{
+  margin-left: 20px;
+
+}
+.logo-x{
+
+   margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -359,7 +449,6 @@ margin:
 
 
 
-
 .middleb-discription{
    width:100%;
    height: auto; 
@@ -400,6 +489,7 @@ font-size: 1.25rem;
    
    
    margin-bottom: 30px;
+ }
 
  .foritem-1{
    height: auto;
@@ -418,6 +508,75 @@ border-radius: 10px;
 
  }
  /* .......................ji upore na takanoi valo......................... */
- 
-    
+
+   
+
+   
+ .last-main{
+   width: auto;
+   height:276px ;
+   margin-top: 50px;
+   border-radius: 10px;
+   
  }
+
+.main-box{
+   width: 218px;
+   height: 42px;
+
+}
+.form-button{
+   width: 103px;
+   height: 50px;
+   
+}
+
+
+ .lmain-title{
+font-weight: bold;
+font-size: 1.5rem ;
+color: aliceblue;
+
+} 
+
+
+/* .....................for footer-section.............. */
+.footer{
+   width: 100%;
+  height: :auto;
+   margin: 0 auto;
+   grid-template-columns: repeat(1,1fr);
+   margin-top: 50px;
+}
+
+.footer-column2{
+margin-left: 0px;
+
+}
+.footer-column3{
+margin-left: 0px;
+
+}
+.footer-column4{
+margin-left: -20px;
+margin-top: 10px;
+margin-bottom: 50px;
+
+}
+.footer-logo{
+  margin-left: 20px;
+
+}
+.logo-x{
+
+   margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+}
