@@ -38,14 +38,26 @@ color: #8987A1;
     height: 461px;
     margin: 0 auto;
     align-items:end;
+    
     justify-content: space-between;
 }
 .nav-cloumns{
     width: 570px;
    
 }
-
-
+.banner-title{
+    font-size:4.1rem ;
+    font-weight: bold;
+}
+.banercolor{
+    color: #E95A08;
+}
+.banner-discription{
+    color: rgba(0, 0, 0, 0.5);
+    font-size:1rem ;
+    
+}
+/*................................... for card section ..................................*/
 
 
 
@@ -72,5 +84,22 @@ color: #8987A1;
     margin-right: 10px;
  }
  
+ .nev-aside{width: 100%;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+    height: auto;
+
+ }
+ .nav-cloumns{
+    width: 100%;
+ }
+ .bener-img{
+    width: 100%;
+ }
+ .banner-title{
+    font-size: 3rem;
+    margin-top: 30px;
+ }
     
  }
